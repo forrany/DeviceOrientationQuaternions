@@ -96,6 +96,9 @@
         displayRawOrientation(doe);
         calculateQuaternionDifference(doe);
     }
+    window.onload = function() {
+        window.resetQuat();
+    }
 
 
 })();
